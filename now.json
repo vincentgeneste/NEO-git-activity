@@ -1,7 +1,7 @@
 {
   "build": {
     "env": {
-      "REACT_APP_USER_GITHUB": "@react_app_user_github"
+      "REACT_APP_USER_GITHUB": "@react_app_user_github",
       "REACT_APP_TOKEN_GITHUB": "@react_app_token_github"
     }
   }

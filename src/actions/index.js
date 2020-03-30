@@ -70,6 +70,8 @@ export function getUsersInfo(users){
         if (users_num < 1) return
         dispatch(getUsersRequest());
         console.log("user reqest")
+        process.env.REACT_APP_USER_GITHUB
+        process.env.REACT_APP_TOKEN_GITHUB
         users.forEach((user, index, arr) => {
             axios
             .get("https://api.github.com/users/"+user, {
